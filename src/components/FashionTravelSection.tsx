@@ -3,15 +3,15 @@ import Card from './Card';
 
 export default function FashionTravelSection() {
   const fashionCards = [
-    { image: 'https://picsum.photos/seed/fash1/400/225', badge: 'TECHNOLOGY', title: 'Cybersecurity in 2025: Protecting the Digital World' },
-    { image: 'https://picsum.photos/seed/fash2/400/225', badge: 'SPORTS', title: 'Rising Stars in African Football You Should Know' },
-    { image: 'https://picsum.photos/seed/fash3/400/225', badge: 'BUSINESS', title: 'Central Banks and Inflation: What the Numbers Really Tell Us' },
+    { id: 'sustainable-fashion-how-the-industry-is-going-green', image: 'https://picsum.photos/seed/sustainable-fashion/400/225', badge: 'FASHION', title: 'Sustainable Fashion: How the Industry Is Going Green' },
+    { id: 'african-prints-are-dominating-global-runways-in-2025', image: 'https://picsum.photos/seed/african-prints/400/225', badge: 'FASHION', title: 'African Prints Are Dominating Global Runways in 2025' },
+    { id: 'streetwear-trends-what-to-expect-this-season', image: 'https://picsum.photos/seed/streetwear-trends/400/225', badge: 'FASHION', title: 'Streetwear Trends: What to Expect This Season' },
   ];
 
   const travelCards = [
-    { image: 'https://picsum.photos/seed/trav1/400/225', badge: 'TECHNOLOGY', title: 'How Open-Source Software Is Powering Innovation' },
-    { image: 'https://picsum.photos/seed/trav2/400/225', badge: 'SPORTS', title: 'Tennis Grand Slams: The Road to the Year-End Finals' },
-    { image: 'https://picsum.photos/seed/trav3/400/225', badge: 'BUSINESS', title: 'E-Commerce Growth in West Africa: Opportunities and Challenges' },
+    { id: '10-hidden-beaches-you-need-to-visit-before-they-are-famous', image: 'https://picsum.photos/seed/hidden-beaches/400/225', badge: 'TRAVEL', title: '10 Hidden Beaches You Need to Visit Before They Are Famous' },
+    { id: 'a-backpackers-guide-to-exploring-kyoto-on-a-budget', image: 'https://picsum.photos/seed/kyoto-japan/400/225', badge: 'TRAVEL', title: 'A Backpacker\'s Guide to Exploring Kyoto on a Budget' },
+    { id: 'the-ultimate-safari-experience-kenyas-maasai-mara', image: 'https://picsum.photos/seed/safari-kenya/400/225', badge: 'TRAVEL', title: 'The Ultimate Safari Experience: Kenya\'s Maasai Mara' },
   ];
 
   return (
